@@ -1,0 +1,384 @@
+body {
+  background-color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+  color: #071c4d;
+}
+.navbar-light .navbar-nav .navbar-link.activ {
+  font-weight: bold;
+  color: #071c4d !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #fff;
+}
+.btn-login:hover {
+  background-color: #264fb0;
+  color: #fff;
+}
+
+header {
+  padding: 180px 0px 165px;
+  margin-top: -70px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+header h1,
+header p {
+  color: #fff;
+}
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+header p {
+  font-size: 22px;
+}
+header .btn-get-started {
+  background-color: #FF9E53;
+  color: #fff;
+}
+header .btn-get-started:hover {
+  background-color: #FFAA69;
+  color: #fff;
+}
+
+.btn-register {
+  padding-left: 640px;
+}
+.btn-register .btn-get-started-register {
+  background-color: #1bdf56;
+  color: #fff;
+}
+.btn-register .btn-get-started-register:hover {
+  background-color: #1b0fb9;
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
+  color: #fff;
+}
+.section-popular .section-popular-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #ddd;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+}
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #FF9E53;
+  border-radius: 30px;
+  color: #fff;
+}
+.section-popular-content .section-popular-travel .travel-button:hover {
+  border-radius: 30px;
+  padding-left: 6px;
+  color: #5e23ca;
+}
+
+.section-footer {
+  @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap");
+}
+.section-footer body {
+  background-color: #f3f6fd;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(189, 196, 203);
+}
+.section-footer .card {
+  padding: 2% 7%;
+  color: #646771;
+  background-color: #16151a;
+}
+.section-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.section-footer ul > li {
+  padding: 4px;
+}
+.section-footer ul > li:hover {
+  color: #957bda;
+  cursor: pointer;
+}
+.section-footer hr {
+  border-width: 3px;
+}
+.section-footer .social > i {
+  padding: 1%;
+  font-size: 15px;
+}
+.section-footer .social > i:hover {
+  color: #957bda;
+  cursor: pointer;
+}
+.section-footer .policy > div {
+  padding: 10px;
+}
+.section-footer .heading {
+  font-family: "Titillium Web", sans-serif;
+  color: rgb(0, 0, 0);
+}
+.section-footer .divider {
+  border-top: 2px solid rgba(189, 196, 203, 0.5);
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+.section-details-content .features {
+  margin-top: 20px;
+}
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  box-shadow: none;
+}
+.section-details-content .member .member-image {
+  width: 40px;
+  height: 40px;
+}
+.section-details-content .member .btn-add-now {
+  background-color: #4e3edd;
+  color: #fff;
+  border-radius: 0;
+}
+.section-details-content .member .btn-add-now:hover {
+  background-color: #80b826;
+  color: #fff;
+}
+.section-details-content .join-container {
+  margin-top: -8px;
+}
+.section-details-content .btn-join-now {
+  background-color: #fab169;
+  color: #fff;
+  border-radius: 0;
+}
+.section-details-content .btn-cancel {
+  background-color: #cac9c8;
+  color: #fff;
+  border-radius: 0;
+}
+.section-details-content.hover {
+  background-color: #ffb57c;
+  color: #fff;
+}
+.section-details-content .text-blue {
+  color: #071C4D;
+  font-weight: bold;
+}
+.section-details-content .text-orange {
+  color: #FF9E53;
+  font-weight: bold;
+}
+.section-details-content .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #ff9e53;
+}
+.section-details-content .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+.section-details-content .bank .bank-item p {
+  margin-bottom: 0;
+}
+.section-details-content .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.section-details-content .bank .bank-item p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #071c4d;
+}
+.section-details-content .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-success {
+  height: 90vh;
+}
+.section-success h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #071c4d;
+}
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+}
+.section-success .btn-home-page {
+  border-radius: 0;
+  background-color: #2a54b6;
+  color: #fff;
+}
+.section-success .btn-home-page:hover {
+  background-color: #80b826;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .login-container {
+    background: linear-gradient(90deg, #ffffff 70%, #E4E6EB 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.page-login {
+  height: 100vh;
+}
+.page-login .btn-login {
+  background-color: #264fb0;
+  color: #fff;
+}
+.page-login .btn-login:hover {
+  color: #fff;
+}
+.page-login .section-left {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  color: #071C4D;
+}
+.page-login .section-right a {
+  font-family: Assistant;
+  font-weight: 300;
+  text-decoration: underline;
+  font-size: 14px;
+  text-align: center;
+  color: #bfbfbf;
+}/*# sourceMappingURL=main.css.map */
